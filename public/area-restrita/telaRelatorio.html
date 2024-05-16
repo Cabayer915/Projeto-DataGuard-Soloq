@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela relatorio</title>
+    <link rel="stylesheet" href="../assets/css/basePages.css">
+    <link rel="stylesheet" href="../assets/css/relatorio.css">
+</head>
+
+<body>
+    <div class="divRelatorio" id="divRelatorio">
+        <div class="tituloRelatorio">
+            <h1>Relatório Mensal - Janeiro 2023</h1>
+            <h1>Laboratório XYZ</h1>
+        </div>
+        
+        <section>
+            <p>Responsável:</p>
+            <table class="tbResponsavel">
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                </tr>
+                <tr>
+                    <td>Maria Silva</td>
+                    <td>maria.s@etec.com</td>
+                    <td>(11) 91234-5678</td>
+                </tr>
+            </table>
+        </section>
+                    
+        <section>
+            <p>O nível de preocupação do laboratório</p>
+            <table class="tbThLateral3">
+                <tr>
+                    <th>Nível</th>
+                    <td>17%</td>
+                    <td>Atenção</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <p>Total de máquinas:</p>
+            <table class="tbThLateral2">
+                <tr>
+                    <th>Total de máquinas nos laboratórios</th>
+                    <td>480</td>
+                </tr>
+                <tr>
+                    <th>Total de máquinas no Laboratório XYZ</th>
+                    <td>48 (10%)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <p>Total de máquinas no laboratório:</p>
+            <table class="tbThLateral2">
+                <tr>
+                    <th>Máquinas Ativas</th>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <th>Máquinas Inativas</th>
+                    <td>8 (2%)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <p>Total de máquinas adicionadas e desativadas:</p>
+            <table class="tbThLateral2">
+                <tr>
+                    <th>Máquinas Adicionadas</th>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th>Máquinas Desativadas</th>
+                    <td>5</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <p>Quantidade de paradas gerais no mês vigente:</p>
+            <table class="tbThLateral2">
+                <tr>
+                    <th>Paradas gerais/totais</th>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <p>Máquinas que mais apresentaram erros:</p>
+        </section>
+
+        <section>
+            <p>Máquinas que foram desativadas:</p>
+        </section>
+                
+        <section>
+            <p>Alertas gerais abertos nesse mês:</p>
+            <table class="tbThLateral2">
+                <tr>
+                    <th>Alertas Urgentes</th>
+                    <td>53</td>
+                </tr>
+                <tr>
+                    <th>Alertas de Atenção</th>
+                    <td>71</td>
+                </tr>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <p>Especificação dos alertas abertos (% de máquina que apresentaram erros por hardwares):</p>
+            <table class="tbThLateral2">
+                <tr>
+                    <th>Memória RAM</th>
+                    <td>17%</td>
+                    <td>7 máquinas</td>
+                </tr>
+                <tr>
+                    <th>Memória de Disco</th>
+                    <td>33%</td>
+                    <td>13 máquinas</td>
+                </tr>
+                </tr>
+                <tr>
+                    <th>CPU</th>
+                    <td>65%</td>
+                    <td>26 máquinas</td>
+                </tr>
+                <tr>
+                    <th>Rede</th>
+                    <td>10%</td>
+                    <td>72 máquinas</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <button class="bntRelatorio" onclick="gerarRelatorio()">
+            <img src="../assets/images/i_pdf.png" width="40" alt="icon pdf">
+            GERAR RELATÓRIO
+        </button>
+    </div>
+</body>
+
+</html>
+<script src="../assets/js/relatorio.js"></script>
+<!-- importando a biblioteca da API de PDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!-- importando a biblioteca da API de PDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+</script>
